@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c1e6ec;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-component {
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    width: 70%;
+    height: 80%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 47px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 47px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 47px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card-img {
+    width: 300px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.card-details-component {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.052);
+    flex-direction: column;
+    padding: 20px 80px;
+    border-radius: 20px;
+    color: #00525f;
+    font-weight: bold;
+}
+
+.card-name,
+.card-num,
+.validity,
+.cvv {
+    margin: 10px 0;
+}
+
+.card-details-component h3 {
+    margin: 30px 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #007688;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #c1e6ec;
+    color: #000;
+}
+
+.Input {
+    padding: 10px 40px;
+    padding-left: 5px;
+    margin: 5px 0;
+}
